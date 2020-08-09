@@ -15,5 +15,14 @@
   };
 </script>
 
-<style>
+// Scoped keeps styling limited to this component
+<style scoped>
+    input {
+        width: 75%;
+    }
+    div {
+        text-align: center;
+        margin: 20px;
+    }
+
 </style>
