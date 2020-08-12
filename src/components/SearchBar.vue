@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="col-md-8 my-auto">
         <input @input="onInput" />
     </div>
 </template>
@@ -18,11 +18,6 @@
 // Scoped keeps styling limited to this component
 <style scoped>
     input {
-        width: 75%;
+        width: 100%;
     }
-    div {
-        text-align: center;
-        margin: 20px;
-    }
-
 </style>
